@@ -79,6 +79,7 @@ namespace CPE200Lab1
             }
             string kep = operate;
             operate = ((Button)sender).Text;
+
             if (firstOperand != null && operate != "%" )
             {
                 string secondOperand = lblDisplay.Text;
@@ -91,8 +92,8 @@ namespace CPE200Lab1
                 {
                     lblDisplay.Text = result;
                 }
-                firstOperand = lblDisplay.Text;
-                isAfterOperater = true;
+                    firstOperand = lblDisplay.Text;
+                    isAfterOperater = true;
             }
             else 
             {
